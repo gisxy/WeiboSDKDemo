@@ -48,12 +48,19 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+//tencent
+//- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
+//    
+//    return [TencentOAuth HandleOpenURL:url]|| [];
+//}
 //gisxy
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
     NSLog(@"ur %@",url);
     
-    return [WeiboSDK handleOpenURL:url delegate:self];
+    //[WeiboSDK handleOpenURL:url delegate:self] ||
+    //return [TencentOAuth handleOpenURL:url];
+    return [TencentOAuth HandleOpenURL:url] || [WeiboSDK handleOpenURL:url delegate:self];
 }
 - (void)didReceiveWeiboResponse:(WBBaseResponse *)response
 {

@@ -8,8 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface gisxyViewController : UIViewController
+
+#import <TencentOpenAPI/TencentOAuth.h>
+
+#import <TencentOpenAPI/sdkdef.h>
+#import <TencentOpenAPI/TencentOAuthObject.h>
+
+
+@interface gisxyViewController : UIViewController<TencentSessionDelegate>{
+    TencentOAuth* _tencentOAuth;
+    
+	NSMutableArray* _permissions;
+}
 
 -(IBAction)sinaAuth:(id)sender;
 
+-(IBAction)tencentOAuth:(id)sender;
 @end

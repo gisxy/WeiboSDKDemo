@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "WeiboSDK.h"
 
+
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPI/TencentOAuth.h>
+
 #define kAppKey         @"1617942800"
 #define kRedirectURI    @"http://www.baidu.com"
 

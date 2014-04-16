@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F348EE118FE2171000193C8 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F348EE018FE2170000193C8 /* TencentOpenAPI.framework */; };
+		0F348EE318FE2183000193C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F348EE218FE2183000193C8 /* SystemConfiguration.framework */; };
+		0F348EE518FE21B0000193C8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F348EE418FE21B0000193C8 /* CoreTelephony.framework */; };
+		0F348EE718FE21C5000193C8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F348EE618FE21C5000193C8 /* CoreFoundation.framework */; };
+		0F348EE918FE21CD000193C8 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F348EE818FE21CD000193C8 /* libstdc++.dylib */; };
+		0F348EEB18FE21DB000193C8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F348EEA18FE21DB000193C8 /* libsqlite3.dylib */; };
+		0F348EED18FE21E5000193C8 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F348EEC18FE21E5000193C8 /* libz.1.1.3.dylib */; };
+		0F348EEF18FE2202000193C8 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F348EEE18FE2202000193C8 /* TencentOpenApi_IOS_Bundle.bundle */; };
 		0F3C4F2418FD666E00EE1904 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3C4F2318FD666E00EE1904 /* Foundation.framework */; };
 		0F3C4F2618FD666E00EE1904 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3C4F2518FD666E00EE1904 /* CoreGraphics.framework */; };
 		0F3C4F2818FD666E00EE1904 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3C4F2718FD666E00EE1904 /* UIKit.framework */; };
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F348EE018FE2170000193C8 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = ../Connect_IOS_SDK_V1.5.1/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		0F348EE218FE2183000193C8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0F348EE418FE21B0000193C8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0F348EE618FE21C5000193C8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0F348EE818FE21CD000193C8 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		0F348EEA18FE21DB000193C8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0F348EEC18FE21E5000193C8 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		0F348EEE18FE2202000193C8 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		0F3C4F2018FD666E00EE1904 /* gisxyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gisxyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3C4F2318FD666E00EE1904 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0F3C4F2518FD666E00EE1904 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +78,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F348EED18FE21E5000193C8 /* libz.1.1.3.dylib in Frameworks */,
+				0F348EEB18FE21DB000193C8 /* libsqlite3.dylib in Frameworks */,
+				0F348EE918FE21CD000193C8 /* libstdc++.dylib in Frameworks */,
+				0F348EE718FE21C5000193C8 /* CoreFoundation.framework in Frameworks */,
+				0F348EE518FE21B0000193C8 /* CoreTelephony.framework in Frameworks */,
+				0F348EE318FE2183000193C8 /* SystemConfiguration.framework in Frameworks */,
+				0F348EE118FE2171000193C8 /* TencentOpenAPI.framework in Frameworks */,
 				0F3C4F2618FD666E00EE1904 /* CoreGraphics.framework in Frameworks */,
 				0F3C4F2818FD666E00EE1904 /* UIKit.framework in Frameworks */,
 				0F3C4F2418FD666E00EE1904 /* Foundation.framework in Frameworks */,
@@ -103,6 +126,13 @@
 		0F3C4F2218FD666E00EE1904 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F348EEC18FE21E5000193C8 /* libz.1.1.3.dylib */,
+				0F348EEA18FE21DB000193C8 /* libsqlite3.dylib */,
+				0F348EE818FE21CD000193C8 /* libstdc++.dylib */,
+				0F348EE618FE21C5000193C8 /* CoreFoundation.framework */,
+				0F348EE418FE21B0000193C8 /* CoreTelephony.framework */,
+				0F348EE218FE2183000193C8 /* SystemConfiguration.framework */,
+				0F348EE018FE2170000193C8 /* TencentOpenAPI.framework */,
 				0F3C4F2318FD666E00EE1904 /* Foundation.framework */,
 				0F3C4F2518FD666E00EE1904 /* CoreGraphics.framework */,
 				0F3C4F2718FD666E00EE1904 /* UIKit.framework */,
@@ -114,6 +144,7 @@
 		0F3C4F2918FD666E00EE1904 /* gisxyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0F348EEE18FE2202000193C8 /* TencentOpenApi_IOS_Bundle.bundle */,
 				0F3C4F5B18FD669100EE1904 /* libWeiboSDK */,
 				0F3C4F3218FD666E00EE1904 /* gisxyAppDelegate.h */,
 				0F3C4F3318FD666E00EE1904 /* gisxyAppDelegate.m */,
@@ -225,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F348EEF18FE2202000193C8 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				0F3C4F3A18FD666E00EE1904 /* Main_iPad.storyboard in Resources */,
 				0F3C4F3F18FD666E00EE1904 /* Images.xcassets in Resources */,
 				0F3C4F6018FD669100EE1904 /* WeiboSDK.bundle in Resources */,
@@ -377,6 +409,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/esrixian/Desktop/share开发/Connect_IOS_SDK_V1.5.1",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "gisxyDemo/gisxyDemo-Prefix.pch";
 				INFOPLIST_FILE = "gisxyDemo/gisxyDemo-Info.plist";
@@ -394,6 +430,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/esrixian/Desktop/share开发/Connect_IOS_SDK_V1.5.1",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "gisxyDemo/gisxyDemo-Prefix.pch";
 				INFOPLIST_FILE = "gisxyDemo/gisxyDemo-Info.plist";
@@ -467,6 +507,7 @@
 				0F3C4F5718FD666E00EE1904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F3C4F5818FD666E00EE1904 /* Build configuration list for PBXNativeTarget "gisxyDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +516,7 @@
 				0F3C4F5A18FD666E00EE1904 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
